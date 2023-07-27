@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+}
+
+.view-agency {
+    text-decoration: none;
+    color: #1976D2;
+}
+
+.sticky {
+    position: fixed;
+    top: 11%;
+    left: 42%;
+    width: 100%;
+}
+
+.listingCard {
+    margin: 2rem;
+}
+
+.price-catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    background-color: #474a4c;
+    font-size: 1.5rem;
+}
+
+.container-overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    background-color: #1bc081;
+    padding: 0.5rem;
+    border-radius: 10% 30% 50% 70%;
+}
+.realtor-overlay {
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    background-color: #1bc081;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.room-features{
+    display: flex;
+    margin: 10rem;
+}
+
+canvas{
+    height: 100%;
+}
+
+.landing-overlay-title {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 60%;
+    text-align: left;
+}
+.landing-overlay-subtitle {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    text-align: left;
+}
+
+.landing-overlay-btn {
+    position: relative;
+    top: 30%;
+    left: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.title{
+    color: mediumspringgreen;
+}
+

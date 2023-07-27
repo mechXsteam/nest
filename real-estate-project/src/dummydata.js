@@ -1,0 +1,113 @@
+import house1 from './assets/houses/house1.png'
+import house2 from './assets/houses/house2.png'
+import house3 from './assets/houses/house3.png'
+import house4 from './assets/houses/house4.png'
+import house5 from './assets/houses/house5.png'
+
+const myListings = [{
+    id: 1,
+    title: "Apartment for rent in Camden",
+    listing_type: "Apartment",
+    description: "Table content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    division: "Inner London",
+    borough: "Camden",
+    property_status: "Rent",
+    price: 410000,
+    rental_frequency: "Day",
+    rooms: 4,
+    furnished: false,
+    pool: false,
+    elevator: true,
+    cctv: true,
+    parking: true,
+    location: {
+        type: "Point", coordinates: [51.541078280085614, -0.15871891189601836],
+    },
+    picture1: house1,
+}, {
+    id: 2,
+    title: "House for sale in Ellington",
+    listing_type: "House",
+    description: "Table content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    division: "Inner London",
+    borough: "Ellington",
+    property_status: "Sale",
+    price: 35000,
+    rental_frequency: null,
+    rooms: 4,
+    furnished: true,
+    pool: true,
+    elevator: false,
+    cctv: true,
+    parking: true,
+    location: {
+        type: "Point", coordinates: [51.53796304347224, -0.10189113898462315],
+    },
+    picture1: house2,
+}, {
+    id: 3,
+    title: "House for sale in Easing",
+    listing_type: "House",
+    description: "Table content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    division: "Outer London",
+    borough: "Easing",
+    property_status: "Sale",
+    price: 35000000,
+    rental_frequency: null,
+    rooms: 4,
+    furnished: true,
+    pool: false,
+    elevator: false,
+    cctv: true,
+    parking: false,
+    location: {
+        type: "Point", coordinates: [51.5117212390057, -0.30023786193990754],
+    },
+    picture1: house3,
+}, {
+    id: 4,
+    title: "Office for sale in Lambert",
+    listing_type: "Office",
+    description: "Table content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    division: "Inner London",
+    borough: "Lambert",
+    property_status: "Sale",
+    price: 2000000,
+    rental_frequency: null,
+    rooms: 4,
+    furnished: true,
+    pool: false,
+    elevator: true,
+    cctv: true,
+    parking: false,
+    location: {
+        type: "Point", coordinates: [51.49463731028351, -0.11398489688921488],
+    },
+    picture1: house4,
+},
+
+    {
+        id: 5,
+        title: "House for sale in Enfield",
+        listing_type: "House",
+        description: "Table content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        division: "Outer London",
+        borough: "Enfield",
+        property_status: "Sale",
+        price: 5000000,
+        rental_frequency: null,
+        rooms: 4,
+        furnished: true,
+        pool: true,
+        elevator: false,
+        cctv: false,
+        parking: true,
+        location: {
+            type: "Point", coordinates: [51.6538576327809, -0.07420868326088129],
+        },
+        picture1: house5,
+    },
+
+];
+
+export default myListings;
