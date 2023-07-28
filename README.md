@@ -1,4 +1,4 @@
-# NEST: A Map Based Real Estate Website
+# NEST: A Map-Based Real Estate Website
 
 # Contents
 
@@ -9,7 +9,7 @@
 
 # Introduction
 
-A location based real estate website that lets users find their dream home/apartments, explore a vastselection of 
+A location-based real estate website that lets users find their dream home/apartments, explore a vast selection of 
 houses tailored to your preferences, and effortlessly book property visits.
 
 ## Tech stack used
